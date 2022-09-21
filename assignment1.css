@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+
+body {
+  background-image: url(https://i.pinimg.com/736x/50/69/61/5069613b363dc9f5c0bc4c9824ab26b7--background-hd-wallpaper-wallpaper-pc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+
+
+}
+.card-box {
+  background-color: rgb(255, 255, 255, 0.8);
+  margin-top: 15vh;
+  height: 80vh;
+ 
+
+}
+.card-box img {
+  position: relative;
+  left: 60%;
+  bottom: 150px;
+
+}
+.info {
+  width: 70%;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+.info h4 {
+  color: rgb(245, 23, 168, 0.9);
+  margin-bottom: 5%;
+}
+.title {
+  font-size: 3rem;
+  letter-spacing: 0.8rem;
+  font-weight: 300;
+  color: rgb(250, 205, 149);
+  line-height: 3.1rem;
+}
+.title span {
+  
+  color: black;
+}
+.info p {
+  padding: 2rem 0;
+}
+.email {
+  position: relative;
+  align-items: center;
+}
+.email input {
+  border: none;
+  outline: none;
+  border: 2px solid rgb(151, 155, 156);
+  border-radius:10px;
+}
+.email input::placeholder {
+  position: relative;
+  
+  color: gray;
+  padding: 0.5rem 1.1rem;
+  
+}
+.email svg {
+      border: 2px;
+    background-color: pink;
+    border: 2px;
+    border-radius: 15px;
+    width: 50px;
+    height: 1.9rem;
+    position: relative;
+    right: 1.5rem;
+    fill: white;
+  
+}
+.email svg:hover {
+  background-color: rgb(239, 172, 194);
+  cursor: pointer;
+  transition: 0.3s ease-in;
+  fill: white;
+  border: 2px;
+}
+.image img{
+    width: 25%;
+    height: auto;
+}
+
+@media only screen and (max-width: 850px) {
+    
+}
+@media only screen and (max-height: 750px){
+  
+}
